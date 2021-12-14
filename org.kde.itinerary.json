@@ -20,8 +20,8 @@
             "sources": [
                 {
                 "type": "archive",
-                "url": "https://poppler.freedesktop.org/poppler-21.07.0.tar.xz",
-                "sha256": "e26ab29f68065de4d6562f0a3e2b5435a83ca92be573b99a1c81998fa286a4d4"
+                "url": "https://poppler.freedesktop.org/poppler-21.12.0.tar.xz",
+                "sha256": "acb840c2c1ec07d07e53c57c4b3a1ff3e3ee2d888d44e1e9f2f01aaf16814de7"
                 }
             ],
             "modules": [
@@ -34,7 +34,9 @@
                     ],
                     "cleanup": [
                         "/bin",
-                        "/lib/openjpeg-*"
+                        "/include",
+                        "/lib/openjpeg-*",
+                        "/lib/pkgconfig"
                     ],
                     "sources": [
                         {
@@ -45,20 +47,21 @@
                     ]
                 },
                 {
-                "name": "boost",
-                "buildsystem": "simple",
-                "build-commands": [
-                    "./bootstrap.sh --prefix=/app --with-libraries=system",
-                    "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
-                ],
-                "sources": [
-                    {
-                    "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2",
-                    "sha256": "fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854"
-                    }
-                ]
-            }
+                    "name": "boost",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "./bootstrap.sh --prefix=/app --with-libraries=system",
+                        "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
+                    ],
+                    "cleanup": [ "/include", "/lib/*.a", "/lib/cmake" ],
+                    "sources": [
+                        {
+                        "type": "archive",
+                        "url": "https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2",
+                        "sha256": "fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854"
+                        }
+                    ]
+                }
             ],
             "cleanup": [ "/include", "/lib/pkgconfig" ]
         },
@@ -70,8 +73,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kpkpass-21.08.0.tar.xz",
-                    "sha256": "500899c5ecd7244ae9cbbe6f30702709200cc2cea0479e48e2d5d1e9f2981315"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kpkpass-21.12.0.tar.xz",
+                    "sha256": "b69ba26ef69f72699995425323e55f7064623b3116d806dca65c2713a0e7770a"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
@@ -84,11 +87,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kmime-21.08.0.tar.xz",
-                    "sha256": "b05789fc3ab2ec2cdce93813315dbc41dd49aed99ada3142cfa43e4357a1e9a5"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kmime-21.12.0.tar.xz",
+                    "sha256": "75bb5cc9da5fbaa2be4797e372cff47fb426cbeab9581ccdde48a92285f2d858"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
         },
         {
             "name": "zxing",
@@ -102,7 +105,7 @@
                     "sha256": "653d9e44195d86cf64a36af9ff3a1978ec5599df3882439fefa56e7064f55e8a"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [ "/include", "/lib/cmake", "/lib/pkgconfig", "/mkspecs" ]
         },
         {
             "name": "kitinerary",
@@ -112,11 +115,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kitinerary-21.08.0.tar.xz",
-                    "sha256": "754e10ce09c929adfc75cce55988f19c6bfb9d211420db7236785ca10c45a241"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kitinerary-21.12.0.tar.xz",
+                    "sha256": "33f19570aaabe9340bb6f8c8d37e33d1c943644eee5275b9ffc59dfa64dcef37"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories", "/lib/libexec" ]
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5", "/lib/libexec" ]
         },
         {
             "name": "kpublictransport",
@@ -126,11 +129,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kpublictransport-21.08.0.tar.xz",
-                    "sha256": "a265c8ae39da47dfe14189da588db20bbe179ebd20abe953f9ef889f40c9dead"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kpublictransport-21.12.0.tar.xz",
+                    "sha256": "ca1442d83e42a7736e5271c755b6bf781623f22dc7c3fbbf70e82d02c832f9b7"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
         },
         {
             "name": "kopeninghours",
@@ -140,11 +143,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kopeninghours-21.08.0.tar.xz",
-                    "sha256": "db8750b52105f95fcd72e52f76be44773c626c255a2daeded61f237541c17ea9"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kopeninghours-21.12.0.tar.xz",
+                    "sha256": "07fb3adc3cccedf50397c79882d3a2202915c8f052e1e2cd90c7a95e15a218dc"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
         },
         {
             "name": "kosmindoormap",
@@ -154,11 +157,25 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/kosmindoormap-21.08.0.tar.xz",
-                    "sha256": "271dea33dc9ecee016ecf0eaa25c63e21c42dd83fe197b6e9774f36a4ee47ed1"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kosmindoormap-21.12.0.tar.xz",
+                    "sha256": "0332fc8fd9926e4a2799f158144d6c744fc2ba7fd2b1da76e41d4fb3d09723d2"
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+        },
+        {
+            "name": "khealthcertificate",
+            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/khealthcertificate-21.12.tar.xz",
+                    "sha256": "23ee807b39c16536c2e0f9c0e1601fdd1a579c2cb52adc33151f5fae6b60b618"
+                }
+            ],
+            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
         },
         {
             "name": "itinerary",
@@ -167,14 +184,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.0/src/itinerary-21.08.0.tar.xz",
-                    "sha256": "481df2773b95a9be9ad214f59cedb7eb7f738c0b08036a1535560d233e378efd"
-                },
-                {   "type": "patch",
-                    "path": "0001-Rename-icon.patch"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/itinerary-21.12.0.tar.xz",
+                    "sha256": "9a36b32542b23e9f3e087d15860ef7aefcb54d20f56d67a4f2abd3f9ed5797b7"
                 }
             ],
-            "cleanup": [ "/etc/xdg/*categories" ]
+            "cleanup": [ "/share/qlogging-categories5" ]
         }
     ]
 }
