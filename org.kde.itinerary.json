@@ -73,8 +73,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kpkpass-21.12.2.tar.xz",
-                    "sha256": "fddf1bcf102626a093909a05bec95a46b37445e7dcb2d4c78f013bbac80f545c"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpkpass-21.12.3.tar.xz",
+                    "sha256": "678e79e450c5859d53c436ab991f4eadffd742dad129e4254953b98e2944c815"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kmime-21.12.2.tar.xz",
-                    "sha256": "4f5c1c8258002dabd43eb818caab8a1c276889707669074801cae14bdc03ab63"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kmime-21.12.3.tar.xz",
+                    "sha256": "fc5a1b86a18c0b0ef67759e3813cb49b3286b101f8494ce0497737ee29a1470f"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -115,8 +115,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kitinerary-21.12.2.tar.xz",
-                    "sha256": "e26a20538c5fbc85bd8eb93c3ad8e7150ac953cba2f56e20293b438b0031ff3c"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kitinerary-21.12.3.tar.xz",
+                    "sha256": "b15f8aac50ac7eaf2fc23e40c7a165283e99844f88d96cb2a45face8a3cc8c4d"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5", "/lib/libexec" ]
@@ -129,8 +129,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kpublictransport-21.12.2.tar.xz",
-                    "sha256": "54a729bc3d3e1f32836d8e566d3bb7ca30f12a4f0bafa2fa67be5512e7bbce09"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpublictransport-21.12.3.tar.xz",
+                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kopeninghours-21.12.2.tar.xz",
-                    "sha256": "d3b8f63853fed2132fff85503edd33c82ea3070d2320e761c372837ba6659ce8"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kopeninghours-21.12.3.tar.xz",
+                    "sha256": "edfd35720ecbff9106dc4b47c107298ea7f6df3511b1311837949a53b4cdd35d"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -157,8 +157,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kosmindoormap-21.12.2.tar.xz",
-                    "sha256": "425e049fc05948516818bc1f0072982d8fb4c9cad32e8fe7a8a897c65d1d5d55"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kosmindoormap-21.12.3.tar.xz",
+                    "sha256": "7caf5affbb448695b3b051b16c72964d996af963b2f128fc9d938e839809261a"
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -184,8 +184,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/itinerary-21.12.2.tar.xz",
-                    "sha256": "07b3258495e0d365c1f15a55f80583aea606bd0cd99e635216fffd364d32860b"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/itinerary-21.12.3.tar.xz",
+                    "sha256": "d79d8b4dd7a7d97e5573fbbe8dbd98680384cb8e929ba533bf1bb2d82d87733f"
                 }
             ],
             "cleanup": [ "/share/qlogging-categories5" ]
