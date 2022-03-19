@@ -21,7 +21,13 @@
                 {
                 "type": "archive",
                 "url": "https://poppler.freedesktop.org/poppler-21.12.0.tar.xz",
-                "sha256": "acb840c2c1ec07d07e53c57c4b3a1ff3e3ee2d888d44e1e9f2f01aaf16814de7"
+                "sha256": "acb840c2c1ec07d07e53c57c4b3a1ff3e3ee2d888d44e1e9f2f01aaf16814de7",
+                "x-checker-data": {
+                    "type": "anitya",
+                    "project-id": 3687,
+                    "stable-only": true,
+                    "url-template": "https://poppler.freedesktop.org/poppler-data-$version.tar.gz"
+                }
                 }
             ],
             "modules": [
@@ -42,7 +48,13 @@
                         {
                         "type": "archive",
                         "url": "https://github.com/uclouvain/openjpeg/archive/v2.4.0.tar.gz",
-                        "sha256": "8702ba68b442657f11aaeb2b338443ca8d5fb95b0d845757968a7be31ef7f16d"
+                        "sha256": "8702ba68b442657f11aaeb2b338443ca8d5fb95b0d845757968a7be31ef7f16d",
+                        "x-checker-data": {
+                            "type": "anitya",
+                            "project-id": 2550,
+                            "stable-only": true,
+                            "url-template": "https://github.com/uclouvain/openjpeg/archive/v$version.tar.gz"
+                        }
                         }
                     ]
                 },
@@ -58,7 +70,13 @@
                         {
                         "type": "archive",
                         "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
-                        "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc"
+                        "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc",
+                        "x-checker-data": {
+                            "type": "anitya",
+                            "project-id": 6845,
+                            "stable-only": true,
+                            "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
+                        }
                         }
                     ]
                 }
@@ -74,7 +92,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpkpass-21.12.3.tar.xz",
-                    "sha256": "678e79e450c5859d53c436ab991f4eadffd742dad129e4254953b98e2944c815"
+                    "sha256": "678e79e450c5859d53c436ab991f4eadffd742dad129e4254953b98e2944c815",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpkpass-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
@@ -88,7 +112,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kmime-21.12.3.tar.xz",
-                    "sha256": "fc5a1b86a18c0b0ef67759e3813cb49b3286b101f8494ce0497737ee29a1470f"
+                    "sha256": "fc5a1b86a18c0b0ef67759e3813cb49b3286b101f8494ce0497737ee29a1470f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -102,7 +132,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v1.2.0.tar.gz",
-                    "sha256": "653d9e44195d86cf64a36af9ff3a1978ec5599df3882439fefa56e7064f55e8a"
+                    "sha256": "653d9e44195d86cf64a36af9ff3a1978ec5599df3882439fefa56e7064f55e8a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 101246,
+                        "stable-only": true,
+                        "url-template": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v$version.tar.gz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/lib/pkgconfig", "/mkspecs" ]
@@ -116,7 +152,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kitinerary-21.12.3.tar.xz",
-                    "sha256": "b15f8aac50ac7eaf2fc23e40c7a165283e99844f88d96cb2a45face8a3cc8c4d"
+                    "sha256": "b15f8aac50ac7eaf2fc23e40c7a165283e99844f88d96cb2a45face8a3cc8c4d",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kitinerary-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5", "/lib/libexec" ]
@@ -130,7 +172,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpublictransport-21.12.3.tar.xz",
-                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9"
+                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -144,7 +192,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kopeninghours-21.12.3.tar.xz",
-                    "sha256": "edfd35720ecbff9106dc4b47c107298ea7f6df3511b1311837949a53b4cdd35d"
+                    "sha256": "edfd35720ecbff9106dc4b47c107298ea7f6df3511b1311837949a53b4cdd35d",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kopeninghours-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -158,7 +212,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kosmindoormap-21.12.3.tar.xz",
-                    "sha256": "7caf5affbb448695b3b051b16c72964d996af963b2f128fc9d938e839809261a"
+                    "sha256": "7caf5affbb448695b3b051b16c72964d996af963b2f128fc9d938e839809261a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kosmindoormap-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -172,7 +232,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma-mobile/21.12/khealthcertificate-21.12.tar.xz",
-                    "sha256": "23ee807b39c16536c2e0f9c0e1601fdd1a579c2cb52adc33151f5fae6b60b618"
+                    "sha256": "23ee807b39c16536c2e0f9c0e1601fdd1a579c2cb52adc33151f5fae6b60b618",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242958,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/khealthcertificate-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
@@ -185,7 +251,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/itinerary-21.12.3.tar.xz",
-                    "sha256": "d79d8b4dd7a7d97e5573fbbe8dbd98680384cb8e929ba533bf1bb2d82d87733f"
+                    "sha256": "d79d8b4dd7a7d97e5573fbbe8dbd98680384cb8e929ba533bf1bb2d82d87733f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/itinerary-$version.tar.xz"
+                    }
                 }
             ],
             "cleanup": [ "/share/qlogging-categories5" ]
