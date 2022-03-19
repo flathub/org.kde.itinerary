@@ -14,24 +14,31 @@
     "modules": [
         {
             "name": "poppler",
-            "config-opts": [ "-DENABLE_TESTING=OFF", "-DENABLE_UNSTABLE_API_ABI_HEADERS=ON", "-DENABLE_CPP=OFF", "-DENABLE_GLIB=OFF", "-DENABLE_GOBJECT_INTROSPECTION=OFF", "-DENABLE_UTILS=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF",
+                "-DENABLE_UNSTABLE_API_ABI_HEADERS=ON",
+                "-DENABLE_CPP=OFF",
+                "-DENABLE_GLIB=OFF",
+                "-DENABLE_GOBJECT_INTROSPECTION=OFF",
+                "-DENABLE_UTILS=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
                 {
-                "type": "archive",
-                "url": "https://poppler.freedesktop.org/poppler-21.12.0.tar.xz",
-                "sha256": "acb840c2c1ec07d07e53c57c4b3a1ff3e3ee2d888d44e1e9f2f01aaf16814de7",
-                "x-checker-data": {
-                    "type": "anitya",
-                    "project-id": 3687,
-                    "stable-only": true,
-                    "url-template": "https://poppler.freedesktop.org/poppler-data-$version.tar.gz"
-                }
+                    "type": "archive",
+                    "url": "https://poppler.freedesktop.org/poppler-data-0.4.11.tar.gz",
+                    "sha256": "2cec05cd1bb03af98a8b06a1e22f6e6e1a65b1e2f3816cb3069bb0874825f08c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 3687,
+                        "stable-only": true,
+                        "url-template": "https://poppler.freedesktop.org/poppler-data-$version.tar.gz"
+                    }
                 }
             ],
             "modules": [
-               {
+                {
                     "name": "openjpeg",
                     "buildsystem": "cmake-ninja",
                     "builddir": true,
@@ -46,15 +53,15 @@
                     ],
                     "sources": [
                         {
-                        "type": "archive",
-                        "url": "https://github.com/uclouvain/openjpeg/archive/v2.4.0.tar.gz",
-                        "sha256": "8702ba68b442657f11aaeb2b338443ca8d5fb95b0d845757968a7be31ef7f16d",
-                        "x-checker-data": {
-                            "type": "anitya",
-                            "project-id": 2550,
-                            "stable-only": true,
-                            "url-template": "https://github.com/uclouvain/openjpeg/archive/v$version.tar.gz"
-                        }
+                            "type": "archive",
+                            "url": "https://github.com/uclouvain/openjpeg/archive/v2.4.0.tar.gz",
+                            "sha256": "8702ba68b442657f11aaeb2b338443ca8d5fb95b0d845757968a7be31ef7f16d",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 2550,
+                                "stable-only": true,
+                                "url-template": "https://github.com/uclouvain/openjpeg/archive/v$version.tar.gz"
+                            }
                         }
                     ]
                 },
@@ -65,27 +72,37 @@
                         "./bootstrap.sh --prefix=/app --with-libraries=system",
                         "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
                     ],
-                    "cleanup": [ "/include", "/lib/*.a", "/lib/cmake" ],
+                    "cleanup": [
+                        "/include",
+                        "/lib/*.a",
+                        "/lib/cmake"
+                    ],
                     "sources": [
                         {
-                        "type": "archive",
-                        "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
-                        "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc",
-                        "x-checker-data": {
-                            "type": "anitya",
-                            "project-id": 6845,
-                            "stable-only": true,
-                            "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
-                        }
+                            "type": "archive",
+                            "url": "https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2",
+                            "sha256": "8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 6845,
+                                "stable-only": true,
+                                "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
+                            }
                         }
                     ]
                 }
             ],
-            "cleanup": [ "/include", "/lib/pkgconfig" ]
+            "cleanup": [
+                "/include",
+                "/lib/pkgconfig"
+            ]
         },
         {
             "name": "kpkpass",
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -101,11 +118,19 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/etc/xdg/*categories" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/etc/xdg/*categories"
+            ]
         },
         {
             "name": "kmime",
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -121,11 +146,19 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "zxing",
-            "config-opts": [ "-DBUILD_SHARED_LIBS=ON", "-DBUILD_BLACKBOX_TESTS=OFF" ],
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON",
+                "-DBUILD_BLACKBOX_TESTS=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -141,11 +174,18 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/lib/pkgconfig", "/mkspecs" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/lib/pkgconfig",
+                "/mkspecs"
+            ]
         },
         {
             "name": "kitinerary",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -161,11 +201,19 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5", "/lib/libexec" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5",
+                "/lib/libexec"
+            ]
         },
         {
             "name": "kpublictransport",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -181,11 +229,18 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "kopeninghours",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -201,11 +256,18 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "kosmindoormap",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -221,18 +283,25 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "khealthcertificate",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/khealthcertificate-21.12.tar.xz",
-                    "sha256": "23ee807b39c16536c2e0f9c0e1601fdd1a579c2cb52adc33151f5fae6b60b618",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/khealthcertificate-22.02.tar.xz",
+                    "sha256": "e3c619c08fbc61b10643123ba70eb3aa7fb593bfa80c0ad69348558c86bf96b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242958,
@@ -241,7 +310,12 @@
                     }
                 }
             ],
-            "cleanup": [ "/include", "/lib/cmake", "/mkspecs", "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "itinerary",
@@ -260,7 +334,9 @@
                     }
                 }
             ],
-            "cleanup": [ "/share/qlogging-categories5" ]
+            "cleanup": [
+                "/share/qlogging-categories5"
+            ]
         }
     ]
 }
