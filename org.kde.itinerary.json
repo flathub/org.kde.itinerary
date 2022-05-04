@@ -156,16 +156,19 @@
         {
             "name": "zxing",
             "config-opts": [
+                "-DBUILD_DEPENDENCIES=LOCAL",
                 "-DBUILD_SHARED_LIBS=ON",
-                "-DBUILD_BLACKBOX_TESTS=OFF"
+                "-DBUILD_UNIT_TESTS=OFF",
+                "-DBUILD_BLACKBOX_TESTS=OFF",
+                "-DBUILD_EXAMPLES=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v1.2.0.tar.gz",
-                    "sha256": "653d9e44195d86cf64a36af9ff3a1978ec5599df3882439fefa56e7064f55e8a",
+                    "url": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v1.3.0.tar.gz",
+                    "sha256": "bfd8fc706def30e34f96088b5a7afdbe0917831e57a774d34e3ee864b01c6891",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 101246,
