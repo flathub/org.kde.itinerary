@@ -108,8 +108,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kpkpass-22.04.2.tar.xz",
-                    "sha256": "dc128dde0166f1c16e54d639ebd88ed78c9467fbb44da4e01c7cac519641d845",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kpkpass-22.04.3.tar.xz",
+                    "sha256": "03eb257db51091bd3f2940db9d526a89155f8ec62b4b6f7a86e5b411bd515316",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kpublictransport-22.04.2.tar.xz",
-                    "sha256": "aa48d57bbedada47cc13643ea7b39322adcef1d759b0992839992d17947ef3ea",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kpublictransport-22.04.3.tar.xz",
+                    "sha256": "3f87338567fd931ae3f2ec43141cb2671d8b9ef30d8f1a550b7f9363f1ad4817",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -276,8 +276,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kosmindoormap-22.04.2.tar.xz",
-                    "sha256": "6efbb520c1848f7bc41c7793e58fd469167c280eb6b61d33bc77bf5b1d5dc042",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kosmindoormap-22.04.3.tar.xz",
+                    "sha256": "3ab43b089c42d5962e964fc41f7cfe04d0d9f5114dd8a96ae896cacb7f915075",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
