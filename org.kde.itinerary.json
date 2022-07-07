@@ -249,8 +249,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kopeninghours-22.04.2.tar.xz",
-                    "sha256": "fbba739aedd75cd6f11a497c1a7a2fcc9f10ce55c2076e50a6fe9b1d5b455e51",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kopeninghours-22.04.3.tar.xz",
+                    "sha256": "7fda4ffd3d382aa80ce0f7ece5ca9dbec7b8df7d3745d3004958d557c6e884c0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
