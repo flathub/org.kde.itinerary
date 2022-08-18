@@ -80,8 +80,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://boostorg.jfrog.io/artifactory/main/release/1.79.0/source/boost_1_79_0.tar.bz2",
-                            "sha256": "475d589d51a7f8b3ba2ba4eda022b170e562ca3b760ee922c146b6c65856ef39",
+                            "url": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
+                            "sha256": "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 6845,
@@ -108,8 +108,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kpkpass-22.04.3.tar.xz",
-                    "sha256": "03eb257db51091bd3f2940db9d526a89155f8ec62b4b6f7a86e5b411bd515316",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kpkpass-22.08.0.tar.xz",
+                    "sha256": "70a8006a191e163558b157ea57d5e5a4a8824c01dea1a1d7ce99d5dddbc55e84",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -167,8 +167,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v1.3.0.tar.gz",
-                    "sha256": "bfd8fc706def30e34f96088b5a7afdbe0917831e57a774d34e3ee864b01c6891",
+                    "url": "https://github.com/nu-book/zxing-cpp/archive/refs/tags/v1.4.0.tar.gz",
+                    "sha256": "126767bb56f8a1f25ae84d233db2e9b9be50d71f5776092d0e170ca0f0ed1862",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 101246,
@@ -194,8 +194,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kitinerary-22.04.3.tar.xz",
-                    "sha256": "9fc6970e633584c88c5283dd2a5d3a4638f704439229abd9c6267d907a6ab3cb",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kitinerary-22.08.0.tar.xz",
+                    "sha256": "2fd35f322c48723b61c98006a2d10010eaf528360f93971d11d07d35168133cb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kpublictransport-22.04.3.tar.xz",
-                    "sha256": "3f87338567fd931ae3f2ec43141cb2671d8b9ef30d8f1a550b7f9363f1ad4817",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kpublictransport-22.08.0.tar.xz",
+                    "sha256": "242f06eae5bbf43143814505bb91e2f99b6fde507163450d19da7146c7797086",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -249,8 +249,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kopeninghours-22.04.3.tar.xz",
-                    "sha256": "7fda4ffd3d382aa80ce0f7ece5ca9dbec7b8df7d3745d3004958d557c6e884c0",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kopeninghours-22.08.0.tar.xz",
+                    "sha256": "48dacf1b67d865c0440e108eac53296a465336eeef48e58c0c2e4574dbf7e2bb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/itinerary-22.04.3.tar.xz",
-                    "sha256": "33033a8848994cbeafcfae0200d1fa6da9c2793de993e73370bf168ab42bdab8",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/itinerary-22.08.0.tar.xz",
+                    "sha256": "77d63f719cfe9d38104d6c317c0e4d827e204ffc5bc2899e98247325cfa2f24a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
