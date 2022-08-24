@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/itinerary-22.04.3.tar.xz",
-                    "sha256": "33033a8848994cbeafcfae0200d1fa6da9c2793de993e73370bf168ab42bdab8",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/itinerary-22.08.0.tar.xz",
+                    "sha256": "77d63f719cfe9d38104d6c317c0e4d827e204ffc5bc2899e98247325cfa2f24a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
