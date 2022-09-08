@@ -276,8 +276,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kosmindoormap-22.08.0.tar.xz",
-                    "sha256": "6e42aed4bb98de8e9745399a05c55f69234c4ab26baf45b4d99521c355852496",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kosmindoormap-22.08.1.tar.xz",
+                    "sha256": "7ad842fd81cab90209a7165a4af76cd727fa8251a60287b2d52791a03aef4a10",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
