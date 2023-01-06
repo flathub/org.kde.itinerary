@@ -194,8 +194,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kitinerary-22.12.0.tar.xz",
-                    "sha256": "8d2392f436a25c5573de6de44658e4c5f3eb51c240c45198a5696449b388b1ac",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kitinerary-22.12.1.tar.xz",
+                    "sha256": "f0c5cacf38b9892a49c4aa6151c96e19163019390414991353f01457aa5b3545",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
