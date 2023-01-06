@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kpublictransport-22.12.0.tar.xz",
-                    "sha256": "9fd4005bd8e135ca0b80a80aa7b4b50edcf49e43f4c7613dd94ae122efcbdaae",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kpublictransport-22.12.1.tar.xz",
+                    "sha256": "1418dd3e9e8c9a00baf66c00daab549672b10b9500350ac645d77bd566af11b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/itinerary-22.12.0.tar.xz",
-                    "sha256": "109483f84a654235cadc9606264c9d8630372bf4163d18c6fffa4d76d0c33007",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/itinerary-22.12.1.tar.xz",
+                    "sha256": "760425313c9874992986e8f6c21e289b3933fa48e08bd742f21b28eea575baba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
