@@ -272,8 +272,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/khealthcertificate-22.11.tar.xz",
-                    "sha256": "11028b1ef2e7e99a77ba156388da9facdde836310b49b7c3726b5b30c191863f",
+                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/khealthcertificate-23.01.0.tar.xz",
+                    "sha256": "755dc2625c4b2ad06266ce19fa7565f87dc3df780d161830db498027477b6aa4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242958,
