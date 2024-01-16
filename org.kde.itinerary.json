@@ -141,7 +141,7 @@
             "name": "zxing",
             "config-opts": [
                 "-DBUILD_DEPENDENCIES=LOCAL",
-                "-DBUILD_SHARED_LIBS=ON",
+                "-DBUILD_SHARED_LIBS=OFF",
                 "-DBUILD_UNIT_TESTS=OFF",
                 "-DBUILD_BLACKBOX_TESTS=OFF",
                 "-DBUILD_EXAMPLES=OFF"
@@ -181,6 +181,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kitinerary-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Search-for-Threads-Threads.patch"
                 }
             ],
             "cleanup": [
