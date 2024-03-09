@@ -283,13 +283,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/khealthcertificate-23.01.0.tar.xz",
-                    "sha256": "755dc2625c4b2ad06266ce19fa7565f87dc3df780d161830db498027477b6aa4",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/khealthcertificate-24.02.0.tar.xz",
+                    "sha256": "b038d3a6fd45ce6c19b80d29894d0ffe036f7cbaf8fcfcfd928a5fba2e6ba449",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242958,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/khealthcertificate-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/khealthcertificate-$version.tar.xz"
                     }
                 }
             ],
