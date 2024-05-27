@@ -134,6 +134,7 @@
                 "/include",
                 "/lib/cmake",
                 "/mkspecs",
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         },
@@ -186,9 +187,10 @@
             "cleanup": [
                 "/include",
                 "/lib/cmake",
+                "/lib/libexec",
                 "/mkspecs",
-                "/share/qlogging-categories5",
-                "/lib/libexec"
+                "/etc/xdg/*categories",
+                "/share/qlogging-categories5"
             ]
         },
         {
@@ -215,6 +217,7 @@
                 "/include",
                 "/lib/cmake",
                 "/mkspecs",
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         },
@@ -243,6 +246,7 @@
                 "/include",
                 "/lib/cmake",
                 "/mkspecs",
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         },
@@ -270,6 +274,7 @@
                 "/include",
                 "/lib/cmake",
                 "/mkspecs",
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         },
@@ -297,6 +302,7 @@
                 "/include",
                 "/lib/cmake",
                 "/mkspecs",
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         },
@@ -344,9 +350,11 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_DISABLE_FIND_PACKAGE_KF6KIO=ON",
-                "-DCMAKE_DISABLE_FIND_PACKAGE_KF6FileMetaData=ON"
+                "-DCMAKE_DISABLE_FIND_PACKAGE_KF6FileMetaData=ON",
+                "-DFLATPAK_BUILD=ON"
             ],
             "cleanup": [
+                "/etc/xdg/*categories",
                 "/share/qlogging-categories5"
             ]
         }
