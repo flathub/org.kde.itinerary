@@ -393,6 +393,60 @@
             ]
         },
         {
+            "name": "libQuotient",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.8.2.tar.gz",
+                    "sha256": "12ff2fa8b80a934b9dd88fa3416a4b88e94bc0e18a8df0dcebfc90614dd2f5c9",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 89357,
+                        "stable-only": true,
+                        "url-template": "https://github.com/quotient-im/libQuotient/archive/$version.tar.gz"
+                    }
+                }
+            ],
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQuotient_ENABLE_E2EE=ON",
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_WITH_QT6=ON"
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/*.a",
+                "/lib/cmake",
+                "/lib/pkgconfig",
+                "/share/ndk-modules"
+            ],
+            "modules": [
+                {
+                    "name": "olm",
+                    "buildsystem": "cmake-ninja",
+                    "builddir": true,
+                    "config-opts": [
+                        "-DOLM_TESTS=OFF",
+                        "-DCMAKE_BUILD_TYPE=Release"
+                    ],
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://gitlab.matrix.org/matrix-org/olm.git",
+                            "commit": "92769cec711c604a1f682b95d6944578d2a1bb3d",
+                            "tag": "3.2.12"
+                        }
+                    ],
+                    "cleanup": [
+                        "/include",
+                        "/lib/cmake",
+                        "/lib/pkgconfig"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "itinerary",
             "buildsystem": "cmake-ninja",
             "builddir": true,
