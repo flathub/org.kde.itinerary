@@ -153,8 +153,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kpkpass-24.08.0.tar.xz",
-                    "sha256": "0fb6cb547a0501d4fbd01dd49986e98d42ff4afe02a4dce0acbb741cdff6b1bb",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kpkpass-24.08.1.tar.xz",
+                    "sha256": "89231553d69343fcbe363688fa49bc9e05b6f7695804fdb52120e8712b1d816f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -182,8 +182,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kmime-24.08.0.tar.xz",
-                    "sha256": "9e5aa90d8a2314b5fbc015f066922f2e1fa529daad3b76dfd351567a954353c2",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kmime-24.08.1.tar.xz",
+                    "sha256": "ec478f26144b1dfb6f0eab8e8efb0c1f06ad349cbb4f55cff233dcacf635a483",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -236,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kitinerary-24.08.0.tar.xz",
-                    "sha256": "befb95f1620e0c9baa82264aabfba0cc676c9ee40583938be2091f1254f2cdac",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kitinerary-24.08.1.tar.xz",
+                    "sha256": "69e31024bef80836e1cf5eaf1543fe9a0ca07d7243d4349f9da0a827a1233933",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -265,8 +265,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kpublictransport-24.08.0.tar.xz",
-                    "sha256": "e91445d37d4ce0f6bb9aa0c039ea73f2709f65712bd11c72f3a83aadbc038c96",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kpublictransport-24.08.1.tar.xz",
+                    "sha256": "cb7305cff8d6058f1773b84f7e2ced82614c976854c13b455fab49732ad656a7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -294,8 +294,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kopeninghours-24.08.0.tar.xz",
-                    "sha256": "d9c97b3c6ffc6c7105bc1f890788475a86e47bc02787916dae6459bdcc3658d6",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kopeninghours-24.08.1.tar.xz",
+                    "sha256": "f4d643562f0e872ee4c8e0a97f319cb94b69a01d94849b5285178c8bba59a703",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -322,8 +322,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kosmindoormap-24.08.0.tar.xz",
-                    "sha256": "b74c78e8e2038f75165dc9899a16498e524580c9ae687269a38d6c5a582ab299",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kosmindoormap-24.08.1.tar.xz",
+                    "sha256": "d2ecf62b097f869da0d158e4a00a08bb060e74a0af9e34b7a1af3fdacc15575a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -350,8 +350,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/khealthcertificate-24.08.0.tar.xz",
-                    "sha256": "4975da85764d4e361af96fb5cd5fa0f5c5c5c985c5ff6866acaff8066f4645f6",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/khealthcertificate-24.08.1.tar.xz",
+                    "sha256": "55638782d46932ab443b849c85625648f5591244ebd76aa5be17ef74441b8139",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242958,
@@ -453,8 +453,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/itinerary-24.08.0.tar.xz",
-                    "sha256": "166864fb078f4e83739b3672a824efba50b87e08e366f7c4edf94555f54d0435",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/itinerary-24.08.1.tar.xz",
+                    "sha256": "6ac0a09ca06e773e858258cfcaed333b33058a39c14113c53f6126a3e26290be",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
