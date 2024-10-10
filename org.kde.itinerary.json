@@ -350,8 +350,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/khealthcertificate-24.08.1.tar.xz",
-                    "sha256": "55638782d46932ab443b849c85625648f5591244ebd76aa5be17ef74441b8139",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/khealthcertificate-24.08.2.tar.xz",
+                    "sha256": "8342ebf33ba9325c852cac953d2f5f075328dbb13f04dcbce74ed7c9fa3b67bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242958,
