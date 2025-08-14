@@ -155,6 +155,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "flatpak-kmime-version.patch"
                 }
             ],
             "cleanup": [
