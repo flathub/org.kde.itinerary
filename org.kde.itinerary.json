@@ -53,6 +53,74 @@
             ]
         },
         {
+            "name": "libphonenumer",
+            "buildsystem": "cmake-ninja",
+            "subdir": "cpp",
+            "config-opts": [
+                "-DUSE_BOOST=OFF",
+                "-DBUILD_TESTING=OFF",
+                "-DREGENERATE_METADATA=OFF",
+                "-DBUILD_STATIC_LIB=OFF",
+                "-DBUILD_SHARED_LIBS=ON",
+                "-DUSE_PROTOBUF_LITE=ON",
+                "-DBUILD_GEOCODER=OFF",
+                "-DFETCHCONTENT_FULLY_DISCONNECTED=ON",
+                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.17.tar.gz",
+                    "sha256": "977a3be64308bf8faeb0138dd5c6dd06f55a1de400106e2c5502a44315de0ba2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 89344,
+                        "stable-only": true,
+                        "url-template": "https://github.com/google/libphonenumber/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/*.a",
+                "/lib/cmake"
+            ],
+            "modules": [
+                {
+                    "name": "protobuf",
+                    "buildsystem": "cmake-ninja",
+                    "config-opts": [
+                        "-Dprotobuf_BUILD_TESTS=OFF",
+                        "-Dprotobuf_LOCAL_DEPENDENCIES_ONLY=ON",
+                        "-DBUILD_SHARED_LIBS=ON"
+                    ],
+                    "sources": [
+                        {
+                            "type": "archive",
+                            "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v33.0.tar.gz",
+                            "sha256": "b6b03fbaa3a90f3d4f2a3fa4ecc41d7cd0326f92fcc920a7843f12206c8d52cd",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 3715,
+                                "stable-only": true,
+                                "url-template": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v$version.tar.gz"
+                            }
+                        }
+                    ],
+                    "cleanup": [
+                        "/bin",
+                        "/include",
+                        "/lib/*.a",
+                        "/lib/*.la",
+                        "/lib/libprotobuf.*",
+                        "/lib/libprotoc*",
+                        "/lib/cmake",
+                        "/lib/pkgconfig"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "qtkeychain",
             "buildsystem": "cmake-ninja",
             "sources": [
