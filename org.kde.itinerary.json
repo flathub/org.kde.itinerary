@@ -97,8 +97,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v33.2.tar.gz",
-                            "sha256": "eb671d900b05d8e17f4cd6ca61bfcc60770d209af1a289cb1a200815d6b621ae",
+                            "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v33.3.tar.gz",
+                            "sha256": "e406daab9ccc4687b46ca45798b0fee1dd9bf63cb91f90216e2a78761efde321",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,
