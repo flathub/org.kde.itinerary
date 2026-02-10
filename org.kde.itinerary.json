@@ -15,6 +15,15 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/mkspecs",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
     "modules": [
         {
             "name": "poppler",
@@ -46,10 +55,6 @@
                         "url-template": "https://poppler.freedesktop.org/poppler-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/pkgconfig"
             ]
         },
         {
@@ -80,11 +85,6 @@
                     }
                 }
             ],
-            "cleanup": [
-                "/include",
-                "/lib/*.a",
-                "/lib/cmake"
-            ],
             "modules": [
                 {
                     "name": "protobuf",
@@ -109,13 +109,8 @@
                     ],
                     "cleanup": [
                         "/bin",
-                        "/include",
-                        "/lib/*.a",
-                        "/lib/*.la",
                         "/lib/libprotobuf.*",
-                        "/lib/libprotoc*",
-                        "/lib/cmake",
-                        "/lib/pkgconfig"
+                        "/lib/libprotoc*"
                     ]
                 }
             ]
@@ -141,11 +136,6 @@
                 "-DLIB_INSTALL_DIR=/app/lib",
                 "-DBUILD_TRANSLATIONS=NO",
                 "-DBUILD_WITH_QT6=ON"
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs"
             ]
         },
         {
@@ -168,12 +158,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpkpass-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -196,12 +180,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -215,12 +193,6 @@
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
-            "cleanup": [
-                "/include",
-                "*.pc",
-                "/lib/cmake",
-                "libZXing.a"
-            ],
             "sources": [
                 {
                     "type": "archive",
@@ -257,11 +229,7 @@
                 }
             ],
             "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/lib/libexec",
-                "/mkspecs",
-                "/share/qlogging-categories6"
+                "/lib/libexec"
             ]
         },
         {
@@ -283,12 +251,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -311,12 +273,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kopeninghours-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -338,12 +294,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kosmindoormap-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -365,12 +315,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/khealthcertificate-$version.tar.xz"
                     }
                 }
-            ],
-            "cleanup": [
-                "/include",
-                "/lib/cmake",
-                "/mkspecs",
-                "/share/qlogging-categories6"
             ]
         },
         {
@@ -396,10 +340,6 @@
                 "-DBUILD_WITH_QT6=ON"
             ],
             "cleanup": [
-                "/include",
-                "/lib/*.a",
-                "/lib/cmake",
-                "/lib/pkgconfig",
                 "/share/ndk-modules"
             ],
             "modules": [
@@ -423,11 +363,6 @@
                                 "url-template": "https://gitlab.matrix.org/matrix-org/olm/-/archive/$version/olm-$version.tar.gz"
                             }
                         }
-                    ],
-                    "cleanup": [
-                        "/include",
-                        "/lib/cmake",
-                        "/lib/pkgconfig"
                     ]
                 }
             ]
@@ -454,9 +389,6 @@
                 "-DCMAKE_DISABLE_FIND_PACKAGE_KF6KIO=ON",
                 "-DCMAKE_DISABLE_FIND_PACKAGE_KF6FileMetaData=ON",
                 "-DFLATPAK_BUILD=ON"
-            ],
-            "cleanup": [
-                "/share/qlogging-categories6"
             ]
         }
     ]
