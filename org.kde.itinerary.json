@@ -75,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.23.tar.gz",
-                    "sha256": "af8444a7863f916bb43fb73bbb851872d1db47ce5b9156075a93dd31af1a70a7",
+                    "url": "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.24.tar.gz",
+                    "sha256": "5cc44becb7b869f343173b81c08251063221fc0df15500c0000cc0f146f368c2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89344,
@@ -323,8 +323,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.5.tar.gz",
-                    "sha256": "24366dd59aca7b991756e45c3c8823c43fc6a8fdb161ea6dcce5b666c6300766",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.6.1.tar.gz",
+                    "sha256": "ac0fe5df480fa893d3e16da626bf5028c944e9b41f504f6fe0fe49273247d636",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
