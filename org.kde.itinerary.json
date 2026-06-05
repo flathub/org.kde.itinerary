@@ -250,10 +250,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "6ace248b71ea3fe6211a67b3fa0d3452ba59dd4a.diff"
                 }
             ]
         },
