@@ -310,7 +310,7 @@
                     "sha256": "b43d767105a3f1a7bb8a5b1ba89feb850439103b7c685949a9eef9f1bf412442",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242958,
+                        "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/khealthcertificate-$version.tar.xz"
                     }
