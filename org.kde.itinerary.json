@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-26.07.0.tar.xz",
-                    "sha256": "304832f48f8a47fdca90c6b6d1f684e68f37c10c9a0726f345f4ca9df4ca01e2",
+                    "url": "https://poppler.freedesktop.org/poppler-26.08.0.tar.xz",
+                    "sha256": "dc906e68cea698109706ac6aa3d2c9d4512fcfcac42d90b8afcda486d1b9abd0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -75,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.33.tar.gz",
-                    "sha256": "649e13846a7c49ca91ddfbf649e8feeafe7b04b590de4ce64cedfbf28d37b2ee",
+                    "url": "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.37.tar.gz",
+                    "sha256": "4bd34bc3aec5a89dc9035d15aaf2256c5e8f7e0524e6eb3e7bac1e811987c230",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89344,
@@ -149,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kpkpass-26.04.3.tar.xz",
-                    "sha256": "fb03b04fa7d9b9097ff3570a45ca03aafd5da5f33ead17e5ceecb7b3ecc5cb87",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kpkpass-26.08.0.tar.xz",
+                    "sha256": "020411887330ff3be2455702b18b663940e5561eb232a003ca03a3b8bb0348bb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -196,8 +196,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/zxing-cpp/zxing-cpp/archive/v2.3.0.tar.gz",
-                    "sha256": "64e4139103fdbc57752698ee15b5f0b0f7af9a0331ecbdc492047e0772c417ba",
+                    "url": "https://github.com/zxing-cpp/zxing-cpp/archive/v3.1.1.tar.gz",
+                    "sha256": "7286b1e6ade66fe82b7c8208b4595deeb55d6486b410834fdc65702f46650542",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 101246,
@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kitinerary-26.04.3.tar.xz",
-                    "sha256": "2a072650508a95a99647d0ad7d23e658d092270412573f5f819372149cb49f8c",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kitinerary-26.08.0.tar.xz",
+                    "sha256": "b90eeba1507d99e0d911066955031854273938ff1e4f39f9cd4173f4a549515c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -242,8 +242,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kpublictransport-26.04.3.tar.xz",
-                    "sha256": "aeac3ec0fa39a26cf9bacd87a30f5d8cf2968116ca99902873499b6cd45f9b17",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kpublictransport-26.08.0.tar.xz",
+                    "sha256": "02c84e01ae0b4838a2c3d40acb8b1d4148997131fee305a292e98fd4cd17de71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -264,8 +264,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kopeninghours-26.04.3.tar.xz",
-                    "sha256": "309cde5d9c9ee141867fee6eca5208863a6fab13b1cdd8f89b2850d16e017ef6",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kopeninghours-26.08.0.tar.xz",
+                    "sha256": "b53e954f60bdebcfff1e5744b1ca62cd96065f01b25eff8f9976c75b1827862c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -285,8 +285,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kosmindoormap-26.04.3.tar.xz",
-                    "sha256": "73a6a9326b25025d0282c5752bce223dd3292fd592f43d566c51286055cb668a",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kosmindoormap-26.08.0.tar.xz",
+                    "sha256": "c37e3f537f12964f3aeecc9e2acf7e59618afc230a3c69ca02d53507099f7761",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -306,8 +306,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/khealthcertificate-26.04.3.tar.xz",
-                    "sha256": "b43d767105a3f1a7bb8a5b1ba89feb850439103b7c685949a9eef9f1bf412442",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/khealthcertificate-26.08.0.tar.xz",
+                    "sha256": "112b82ff15cc3de2fb7ce7b65c4b41126f34d4c90f9059c7d2f4a571227ef295",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/itinerary-26.04.3.tar.xz",
-                    "sha256": "9ad5a9228cea5042e293e01a8bb61f643ea5efe6ea4dfdf7f3a62bf4f5b07293",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/itinerary-26.08.0.tar.xz",
+                    "sha256": "21df6501f6eb723eb0522e73a919346847a714383a55f241d5bc6f2a5061892e",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
